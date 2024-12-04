@@ -77,5 +77,15 @@
         <h4>Objetivos y Metas</h4>
         <p>Mi dedicación a siempre dar lo mejor y trabajar en equipo me ha llevado a obtener excelentes resultados.</p>
     </div>
+    <script>
+        document.querySelectorAll('.education ul li a').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const parent = link.parentElement;
+                parent.classList.toggle('active');
+            });
+        });
+    </script>
+    
 </body>
 </html>

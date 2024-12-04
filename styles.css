@@ -1,0 +1,108 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Containers */
+.container {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Section */
+.profile-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-container img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.profile-info h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+/* Social Links */
+.social-links a {
+    display: inline-block;
+    margin: 5px 0;
+    text-decoration: none;
+    color: #0073b1;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+/* Skills Section */
+.skills ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Education Section */
+.education ul {
+    list-style: none;
+    padding: 0;
+}
+
+.education ul li {
+    margin-bottom: 10px;
+}
+
+.education ul li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #0073b1;
+}
+
+.education ul li a:hover {
+    text-decoration: underline;
+}
+
+.education .thumbnail {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+/* Collapsible Titles */
+.education ul li a {
+    cursor: pointer;
+}
+
+.education ul li img {
+    display: none;
+}
+
+.education ul li.active img {
+    display: inline-block;
+}
+
+/* Objectives Section */
+.objectives p {
+    margin: 10px 0;
+}
